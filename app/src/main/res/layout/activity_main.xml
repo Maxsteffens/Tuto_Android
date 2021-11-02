@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <EditText
+        android:id="@+id/ediTextNome"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:hint="digite_o_nome"
+        android:textColorHint="#757575"
+        />
+
+    <EditText
+        android:id="@+id/ediTextIdade"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:hint="digite_a_idade"
+        android:textColorHint="#757575"
+        android:minHeight="48dp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="84dp"
+        android:gravity="center_horizontal"
+        android:text="sexo" />
+
+    <LinearLayout
+        android:layout_width="185dp"
+        android:layout_height="64dp"
+        android:layout_gravity="center_horizontal">
+
+        <TextView
+            android:layout_width="58dp"
+            android:layout_height="30dp"
+            android:text="m" />
+        <Switch
+            android:id="@+id/switchSexo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="10dp"
+            tools:ignore="UseSwitchCompatOrMaterialXml"/>
+        <TextView
+            android:layout_width="48dp"
+            android:layout_height="29dp"
+            android:text="f" />
+
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/botaoSalvar"
+        android:layout_width="118dp"
+        android:layout_height="76dp"
+        android:layout_gravity="center_horizontal"
+        android:text="salvar" />
+    <ListView
+        android:id="@+id/listView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+
+
+
+
+</LinearLayout>

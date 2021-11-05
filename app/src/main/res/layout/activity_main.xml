@@ -17,7 +17,7 @@
         />
 
     <EditText
-        android:id="@+id/ediTextIdade"
+        android:id="@+id/editTextIdade"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_gravity="center_horizontal"

@@ -24,7 +24,7 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
         editTextNome = findViewById(R.id.ediTextNome);
-        editTextIdade = findViewById(R.id.ediTextIdade);
+        editTextIdade = findViewById(R.id.editTextIdade);
         switchSexo = findViewById(R.id.switchSexo);
         botaoSalvar = findViewById(R.id.botaoSalvar);
         listView = findViewById(R.id.listView);
